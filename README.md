@@ -1,1 +1,3 @@
 # FreeWheel
+
+I configured the backend to connect to MongoDB Atlas using a proper connection string in the .env file and verified the database connection locally. Instead of using postman I used PowerShell, including user registration, login, ride creation, and ride search. The JSON responses returned by the API were verified against the actual documents stored in MongoDB Atlas to ensure correct data flow. I confirmed that the backend was correctly writing and reading structured JSON data (including geospatial coordinates, timestamps, and user references) from the database, ensuring full backend-to-database integration.
